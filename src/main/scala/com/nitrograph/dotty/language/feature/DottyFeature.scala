@@ -4,11 +4,15 @@ package feature
 import com.nitrograph.dotty.language.DottyLanguage
 import com.nitrograph.language.feature._
 import scala.collection.immutable.HashMap
+import scala.util.Try
 
-sealed abstract class DottyFeature(name: String)
-    extends LanguageFeature(
-        DottyLanguage.currentReleaseCandidate,
-        name,
-        HashMap.empty,
-        HashMap.empty
-    )
+class DottyFeature(
+    name: String,
+    examples: Map[String, () => Unit],
+    tests: Map[String, () => Try[Nothing]]
+) extends LanguageFeature(
+    DottyLanguage.currentReleaseCandidate,
+    name,
+    examples,
+    tests
+)
