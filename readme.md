@@ -7,7 +7,7 @@
 
 ## Language { Features }
 
-* [ ] Trait parameters
+* [x] Trait parameters
 * [ ] Implicit
     * [ ] Functions
     * [ ] Parameters
