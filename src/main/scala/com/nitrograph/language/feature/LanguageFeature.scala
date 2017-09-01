@@ -8,6 +8,6 @@ import scala.util.Try
 trait LanguageFeature(
     language: Language,
     name: String,
-    examples: HashMap[String, Unit => Unit],
-    tests: HashMap[String, Unit => Try[Boolean]]
+    examples: Map[String, () => Unit],
+    tests: Map[String, () => Try[Nothing]]
 )
