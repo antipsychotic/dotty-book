@@ -1,4 +1,5 @@
-package com.nitrograph.langauge.feature
+package com.nitrograph.language
+package feature
 
 import com.nitrograph.language._
 import scala.collection.immutable.HashMap
