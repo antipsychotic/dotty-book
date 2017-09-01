@@ -1,3 +1,4 @@
 package com.nitrograph.language
 
-trait Language(name: String)
+trait Language(name: String, version: String)
+
