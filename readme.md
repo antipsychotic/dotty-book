@@ -13,7 +13,7 @@
     * [ ] Parameters
     * [ ] Conversions
 * [ ] Types
-    * [ ] Enumeration
+    * [x] Enumeration
     * [ ] Union
     * [ ] Intersection
     * [ ] Structural
