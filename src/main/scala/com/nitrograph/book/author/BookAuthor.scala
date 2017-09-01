@@ -1,3 +1,6 @@
-package com.nitrograph.book.author
+package com.nitrograph.book
+package author
 
-trait BookAuthor(val forename: String, val lastname: String)
+case class BookAuthor(val forename: String, val lastname: String) {
+    override def toString: String = s"$forename $lastname"
+}
