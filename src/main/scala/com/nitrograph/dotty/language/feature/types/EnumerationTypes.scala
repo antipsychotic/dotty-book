@@ -10,7 +10,8 @@ case class EnumerationTypes(
 ) extends DottyFeature(
     name = "Enumeration types",
     List(
-        "Basic" -> EnumerationTypes.Example.Basic
+        "Basic" -> EnumerationTypes.Example.Basic,
+        "Advanced" -> EnumerationTypes.Example.Advanced
     ).toMap,
     tests
 )
